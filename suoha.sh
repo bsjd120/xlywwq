@@ -83,7 +83,7 @@ cat>xray/config.json<<EOF
     },
     "inbounds": [
         {
-            "port": $port,
+            "port": "$port",
             "listen": "localhost",
             "protocol": "vmess",
             "settings": {
@@ -123,7 +123,7 @@ cat>xray/config.json<<EOF
     },
     "inbounds": [
         {
-            "port": $port,
+            "port": "$port",
             "listen": "localhost",
             "protocol": "vless",
             "settings": {
